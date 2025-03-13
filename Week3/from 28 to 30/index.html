@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+  <form method="get">
+    <div>
+        <label>username:</label><br>
+        <input type="text"placeholder="username" name="user" autofocus required maxlength="20" minlength="5">
+    </div>
+    <div>
+        <label>Email:</label><br>
+        <input type="email" name="mail" readonly value="o@o.com">
+    </div>
+         <div>
+            <label>Token</label>
+            <input type="hidden" value=" b92f1fc2fce391ad7af633723afd3055">
+         </div><br>
+         <div>
+            <h3>skills</h3>
+            <input type="checkbox" id="prob" checked>
+            <label for="prob">Problem Solving</label> <br>
+
+            
+            <input type="checkbox" id="Logical">
+            <label for="Logical"> Logical Thinking</label> <br>
+
+            
+            <input type="checkbox" id="Advanced">
+            <label for="Advanced">Advanced Search</label><br>
+            
+            <input type="checkbox" id="Analysis">
+            <label for="Analysis">Analysis</label>
+        </div>
+        
+        <div>
+            <h3>job</h3>
+           
+            <input type="radio" name="job" id="Front-End">
+            <label for="Front-End">Front-End Developer</label><br>
+
+            <input type="radio" name="job" id="Back-End" checked>
+            <label for="Back-End">Back-End Developer,</label><br>
+
+            <input type="radio" name="job" id="Business">
+            <label for="Business">Business Analyst</label><br>
+
+            <input type="radio" name="job" id="Project">
+            <label for="Project">Project Manager</label><br>
+
+        </div>
+        <div>
+             <label>prgramming languages:</label>
+             <select>
+               <optgroup label="PHP">
+                 <option>v5.0</option>
+                 <option>v7.0</option>
+                 <option>v8.0</option>
+               </optgroup>
+              <optgroup label="Python">
+                <option>v2.0</option>
+                <option>v3.0</option>
+                <option>v3.9</option>
+              </optgroup>
+            </select>
+        </div>
+     <hr>
+         <div>
+        
+           <textarea name="brief" cols="50" rows="10" placeholder=" Write Here Why You Want To Learn Programming"></textarea>
+         </div>
+
+          <input type="reset" value="Empty">
+          <br>
+          <input type="submit" value="Send">
+  </form>  
+</body>
+</html>
